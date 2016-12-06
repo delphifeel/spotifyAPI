@@ -1,0 +1,21 @@
+const PREFIX = "SEARCH_";
+
+export const DEFAULT_TYPE = "album,artist";
+
+export const DEFAULT_MARKET = "US";
+
+export const DEFAULT_LIMIT = 20;
+
+export const DEFAULT_OFFSET = 0;
+
+export const DEFAULT_PAGE_NUMBER = 1;
+
+export const AFTER_SEARCH = PREFIX + "AFTER_SEARCH";
+
+export const SET_ALBUMS_ACTIVE_PAGE_NUMBER = PREFIX + "SET_ALBUMS_ACTIVE_PAGE_NUMBER";
+
+export const SET_ARTISTS_ACTIVE_PAGE_NUMBER = PREFIX + "SET_ARTISTS_ACTIVE_PAGE_NUMBER";
+
+export const SET_ACTIVE_QUERY = PREFIX + "SET_ACTIVE_QUERY";
+
+export const CLEAR_ITEMS = PREFIX + "CLEAR_ITEMS";
